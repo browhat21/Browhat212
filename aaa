@@ -1,0 +1,163 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Loomian Legacy DGHUB", "Ocean")
+    
+--MAIN
+local Main = Window:NewTab("Route8")
+local MainSection = Main:NewSection("Route8")
+MainSection:NewToggle("Auto tp encounter route 8", "A auto thing for route 8 auto encounter how? spams tp till find encounter.", function(v)
+    getgenv().autotploomianroute8 = v
+    while true do
+        if not getgenv().autotploomianroute8 then return end
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(253.289688, 334.007416, 3573.82373, -0.916638792, 9.61704849e-09, -0.399716556, 4.06489598e-08, 1, -6.91574229e-08, 0.399716556, -7.96404365e-08, -0.916638792)
+        wait(0.001)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(227.191147, 334.007446, 3571.9646, 0.825641572, -8.80883064e-08, 0.564194977, 9.50360715e-08, 1, 1.7055406e-08, -0.564194977, 3.95372233e-08, 0.825641572)
+        wait(0.001)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(232.524521, 334.007477, 3564.979, 0.413364351, -3.78232343e-08, -0.910565734, 5.51216399e-11, 1, -4.15131467e-08, 0.910565734, 1.7109862e-08, 0.413364351)
+        wait(0.001)
+    end
+end)
+MainSection:NewKeybind("Open/Hide Gui", "Opens OR HIDES GUI", Enum.KeyCode.F, function()
+	Library:ToggleUI()
+end)
+MainSection:NewKeybind("Copy discord link", "Copy discord link", Enum.KeyCode.T, function()
+    setclipboard("https://discord.gg/GN2AjRhAPW")
+end)
+local Main7 = Window:NewTab("Route7")
+local MainSection7 = Main7:NewSection("Route7")
+MainSection7:NewKeybind("Copy discord link", "Copy discord link", Enum.KeyCode.T, function()
+    setclipboard("https://discord.gg/GN2AjRhAPW")
+end)
+MainSection7:NewToggle("Auto tp encounter route 7", "A auto thing for route 7 auto encounter how? spams tp till find encounter.", function(v)
+    getgenv().autotploomianroute7 = v
+    while true do
+        if not getgenv().autotploomianroute7 then return end
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1617.33838, 241.213928, 4512.34082, -0.219658703, 9.58699502e-08, 0.975576758, 7.26874347e-08, 1, -8.19038775e-08, -0.975576758, 5.29212727e-08, -0.219658703)
+wait(0.001)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1586.53369, 241.213928, 4522.01807, -0.985960126, 1.00324282e-08, -0.166980833, -1.21224586e-09, 1, 6.72391778e-08, 0.166980833, 6.64975772e-08, -0.985960126)
+wait(0.0001)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1591.39465, 241.213928, 4517.32324, 0.332127661, 7.70497763e-08, -0.943234444, -9.660031e-08, 1, 4.76722839e-08, 0.943234444, 7.52834524e-08, 0.332127661)
+wait(0.001)
+    end
+end)
+local Main6 = Window:NewTab("Route6")
+local MainSection6 = Main6:NewSection("Route6")
+MainSection6:NewToggle("Auto tp encounter route 6", "A auto thing for route 6 auto encounter how? spams tp till find encounter.", function(v)
+    getgenv().autotploomianroute6 = v
+    while true do
+        if not getgenv().autotploomianroute6 then return end
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(632.487366, 55.2139549, -263.4422, 0.179752856, -9.90761393e-08, 0.983711779, -1.17795285e-09, 1, 1.00931878e-07, -0.983711779, -1.93015612e-08, 0.179752856)
+wait(0.0001)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(601, 55.2139587, -288.639404, 0.509394765, 4.28127116e-08, 0.860532939, -2.81943642e-08, 1, -3.30616601e-08, -0.860532939, -7.42074135e-09, 0.509394765)
+wait(0.0001)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(592.885925, 53.5075226, -308.26651, 0.918613195, 1.68500449e-08, 0.395157903, -1.36117362e-09, 1, -3.94770083e-08, -0.395157903, 3.57262238e-08, 0.918613195)
+wait(0.0001)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(585.511108, 53.5075188, -313.581635, 0.199535757, -1.18342767e-08, 0.979890525, -9.42552081e-09, 1, 1.39964662e-08, -0.979890525, -1.20287744e-08, 0.199535757)
+wait(0.0001)
+    end
+end)
+MainSection6:NewKeybind("Copy discord link", "Copy discord link", Enum.KeyCode.T, function()
+    setclipboard("https://discord.gg/GN2AjRhAPW")
+end)
+local Main5 = Window:NewTab("R5 And Polut Campus")
+local MainSection5 = Main5:NewSection("Route5")
+MainSection5:NewToggle("Auto tp encounter route 5", "A auto thing for route 5 auto encounter how? spams tp till find encounter.", function(v)
+    getgenv().autotploomianroute5 = v 
+    while true do 
+        if not getgenv().autotploomianroute5 then return end
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-275.661255, 86.5075073, -1612.57922, 0.99883306, -7.3599824e-09, 0.0482965559, 8.21226731e-09, 1, -1.74484782e-08, -0.0482965559, 1.78247408e-08, 0.99883306)
+wait(0.00000000001)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-273.6922, 87.713974, -1583.97119, -0.255990058, 4.57063676e-09, -0.966679394, 1.56334767e-09, 1, 4.31418679e-09, 0.966679394, -4.06867068e-10, -0.255990058)
+wait(0.0000001)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-284.658569, 89.6363297, -1617.67773, 0.963944316, -2.8053643e-08, 0.266103953, 1.0718807e-09, 1, 1.01540799e-07, -0.266103953, -9.75944445e-08, 0.963944316)
+wait(0.00000001)
+    end
+end)
+MainSection5:NewKeybind("Copy discord link", "Copy discord link", Enum.KeyCode.T, function()
+    setclipboard("https://discord.gg/GN2AjRhAPW")
+end)
+local Main4 = Window:NewTab("Route4")
+local MainSection4 = Main4:NewSection("Route4")
+MainSection4:NewToggle("Auto tp encounter route 4", "A auto thing for route 4 auto encounter how? spams tp till find encounter.", function(v)
+    getgenv().autotploomianroute4 = v
+    while true do
+        if not getgenv().autotploomianroute4 then return end
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-814.873047, 74.8180084, -1369.50806, -0.999402404, 7.46139683e-09, 0.0345669799, 5.75390935e-09, 1, -4.94959593e-08, -0.0345669799, -4.92674843e-08, -0.999402404)
+wait(0.0001)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-808.408997, 74.8180084, -1351.8877, -0.999962807, 5.28945847e-08, -0.0086225057, 5.22459231e-08, 1, 7.54537908e-08, 0.0086225057, 7.50004929e-08, -0.999962807)
+wait(0.0001)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-933.440735, 74.8180084, -1372.74609, 0.999777973, -3.97434547e-08, 0.0210709218, 4.12825791e-08, 1, -7.26099074e-08, -0.0210709218, 7.34636458e-08, 0.999777973)
+wait(0.00001)
+    end
+end)
+MainSection4:NewKeybind("Copy discord link", "Copy discord link", Enum.KeyCode.T, function()
+    setclipboard("https://discord.gg/GN2AjRhAPW")
+end)
+local Main3 = Window:NewTab("Route3")
+local MainSection3 = Main3:NewSection("Route3")
+MainSection3:NewToggle("Auto tp encounter route 3", "A auto thing for route 3 auto encounter how? spams tp till find encounter.", function(v)
+    getgenv().autotploomianroute3 = v
+    while true do
+       if not getgenv().autotploomianroute3 then return end
+       game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1679.16589, 118.519142, -506.403809, 0.973323405, -6.92294533e-09, 0.229437351, -9.61870139e-10, 1, 3.42540396e-08, -0.229437351, -3.35609478e-08, 0.973323405)
+wait(0.0001)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1682.86292, 118.519142, -505.534912, -0.0527073443, 6.07088069e-08, 0.99861002, 7.81997684e-08, 1, -5.66658684e-08, -0.99861002, 7.51043672e-08, -0.0527073443)
+wait(0.0001)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1682.86292, 118.519142, -505.534912, -0.0527073443, -6.80740797e-08, 0.99861002, -8.81546498e-08, 1, 6.35159694e-08, -0.99861002, -8.46843591e-08, -0.0527073443)
+wait(0.0001)
+    end
+end)
+MainSection3:NewKeybind("Copy discord link", "Copy discord link", Enum.KeyCode.T, function()
+    setclipboard("https://discord.gg/GN2AjRhAPW")
+end)
+local Main2 = Window:NewTab("GaleForest")
+local MainSection2 = Main2:NewSection("GaleForest")
+MainSection2:NewToggle("Auto tp encounter gale forest", "A auto thing for gale forest auto encounter.", function(v)
+    getgenv().autotploomianforest = v
+    while true do
+        if not getgenv().autotploomianforest then return end
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-232.079071, 85.907402, -887.10437, -0.871284246, 6.42067874e-08, 0.490778714, 7.50323395e-08, 1, 2.37930364e-09, -0.490778714, 3.88973262e-08, -0.871284246)
+wait(0.0001)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-235.044769, 85.9073944, -883.660767, -0.926363587, 2.95800309e-08, 0.376630485, 5.28719397e-08, 1, 5.15056797e-08, -0.376630485, 6.76261678e-08, -0.926363587)
+wait(0.0001)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-67.3689957, 85.907402, -836.217529, -0.0723481327, 4.35475034e-09, -0.997379422, 1.31149163e-08, 1, 3.41485973e-09, 0.997379422, -1.28334889e-08, -0.0723481327)
+wait(0.0001)
+    end
+end)
+local MainLocal = Window:NewTab("LocalPlayer")
+local MainSectionLocal = MainLocal:NewSection("LocalPlayer")
+MainSectionLocal:NewSlider("Speed", "SetWalkSpeed", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+local MainLivingDistric = Window:NewTab("Atlanthian City")
+local MainSectionLivingDistric = MainLivingDistric:NewSection("Atlanthian Living City")
+MainSectionLivingDistric:NewToggle("Auto tp encounter Living District", "A auto thing for Atlanthian Living Distric auto encounter.", function(v)
+    getgenv().MainSectionLivingDistrictp = v
+    while true do
+        if not getgenv().MainSectionLivingDistrictp then return end
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2982.60522, 490.789246, -732.705261, -0.0706268176, -6.16894198e-08, 0.997502804, -5.04094433e-10, 1, 6.18081586e-08, -0.997502804, 3.86247834e-09, -0.0706268176)
+wait(0.0000000001)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3014.94116, 490.748901, -738.606506, 0.999979079, -9.4183072e-08, -0.00646758266, 9.45478149e-08, 1, 5.60898421e-08, 0.00646758266, -5.67001628e-08, 0.999979079)
+wait(0.0000000001)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3018.33545, 490.748901, -689.045288, -0.987677038, -4.84268892e-09, -0.156505674, -1.22530697e-08, 1, 4.63841765e-08, 0.156505674, 4.77302642e-08, -0.987677038)
+wait(0.00000001)
+    end
+end)
+MainSectionLivingDistric:NewKeybind("Copy discord link", "Copy discord link", Enum.KeyCode.T, function()
+    setclipboard("https://discord.gg/GN2AjRhAPW")
+end)
+local MainSectionPolutCampus1 = Main5:NewSection("PoluteCampus")
+MainSectionPolutCampus1:NewToggle("Auto tp encounter Polut Campus", "A auto thing for Polut Campus auto encounter.", function(v)
+    getgenv().PolutCampusMain = v
+    while true do
+        if not getgenv().PolutCampusMain then return end
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1400.23853, 138.999176, -209.264389, -0.630810201, 8.13572711e-08, -0.77593714, 1.08428381e-07, 1, 1.67017919e-08, 0.77593714, -7.35979526e-08, -0.630810201)
+wait(0.00000001)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1404.97205, 145.15329, -195.926056, -0.998620391, 3.53125635e-08, 0.052510526, 3.64707553e-08, 1, 2.10981561e-08, -0.052510526, 2.29841461e-08, -0.998620391)
+wait(0.00000001)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1398.88257, 149.607422, -160.68457, -0.954471529, -3.25792264e-08, 0.298301965, 4.30442793e-09, 1, 1.22988396e-07, -0.298301965, 1.18672951e-07, -0.954471529)
+wait(0.00000001)
+    end
+end)
+MainSectionLocal:NewKeybind("Inf Yield Fe Admin ", "Inf Yield FE", Enum.KeyCode.Z, function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
