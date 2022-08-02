@@ -65,11 +65,11 @@ MainSection5:NewToggle("Auto tp encounter route 5", "A auto thing for route 5 au
     while true do 
         if not getgenv().autotploomianroute5 then return end
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-275.661255, 86.5075073, -1612.57922, 0.99883306, -7.3599824e-09, 0.0482965559, 8.21226731e-09, 1, -1.74484782e-08, -0.0482965559, 1.78247408e-08, 0.99883306)
-wait(0.00000000001)
+wait(0.0001)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-273.6922, 87.713974, -1583.97119, -0.255990058, 4.57063676e-09, -0.966679394, 1.56334767e-09, 1, 4.31418679e-09, 0.966679394, -4.06867068e-10, -0.255990058)
-wait(0.0000001)
+wait(0.0001)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-284.658569, 89.6363297, -1617.67773, 0.963944316, -2.8053643e-08, 0.266103953, 1.0718807e-09, 1, 1.01540799e-07, -0.266103953, -9.75944445e-08, 0.963944316)
-wait(0.00000001)
+wait(0.0001)
     end
 end)
 MainSection5:NewKeybind("Copy discord link", "Copy discord link", Enum.KeyCode.T, function()
@@ -123,13 +123,28 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-67.3689
 wait(0.0001)
     end
 end)
-local MainLocal = Window:NewTab("LocalPlayer")
+local MainLocal = Window:NewTab("LocalPlayer And Main")
 local MainSectionLocal = MainLocal:NewSection("LocalPlayer")
+MainSectionLocal:NewKeybind("Inf Yield Fe Admin ", "Inf Yield FE", Enum.KeyCode.Z, function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+local MainSectionses = MainLocal:NewSection("Main")
+MainSectionses:NewButton("Be Invis", "Becomes Invis", function()
+    local character = game.Players.LocalPlayer.Character
+local humanoidrp = character.HumanoidRootPart
+character.LowerTorso:Destroy()
+end)
 MainSectionLocal:NewSlider("Speed", "SetWalkSpeed", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
 local MainLivingDistric = Window:NewTab("Atlanthian City")
 local MainSectionLivingDistric = MainLivingDistric:NewSection("Atlanthian Living City")
+TpSection:NewButton("Be Invis (Must Be In Living District)", "Makes You Invis(Must Wait 2-5 Secs)", function()
+    local character = game.Players.LocalPlayer.Character
+character.HumanoidRootPart.CFrame = CFrame.new(-2967.29614, 493.947052, -578.318237, -0.282849371, 3.35614381e-08, -0.959164321, -5.94659753e-08, 1, 5.25262998e-08, 0.959164321, 7.18946751e-08, -0.282849371)
+wait(0.001)
+character.LowerTorso:Destroy()
+end)
 MainSectionLivingDistric:NewToggle("Auto tp encounter Living District", "A auto thing for Atlanthian Living Distric auto encounter.", function(v)
     getgenv().MainSectionLivingDistrictp = v
     while true do
@@ -157,7 +172,4 @@ wait(0.00000001)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1398.88257, 149.607422, -160.68457, -0.954471529, -3.25792264e-08, 0.298301965, 4.30442793e-09, 1, 1.22988396e-07, -0.298301965, 1.18672951e-07, -0.954471529)
 wait(0.00000001)
     end
-end)
-MainSectionLocal:NewKeybind("Inf Yield Fe Admin ", "Inf Yield FE", Enum.KeyCode.Z, function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
